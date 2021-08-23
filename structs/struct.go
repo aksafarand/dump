@@ -1,0 +1,101 @@
+package structs
+
+import "gopkg.in/guregu/null.v4"
+
+type Data4g struct {
+	NE_NAME                      null.String `db:"ne_name" json:"ne_name"`
+	DLBANDWIDTH                  null.String `db:"dlbandwidth" json:"dlbandwidth"`
+	ULBANDWIDTH                  null.String `db:"ulbandwidth" json:"ulbandwidth"`
+	PUCCHALGOSWITCH              null.String `db:"pucchalgoswitch" json:"pucchalgoswitch"`
+	DLPCALGOSWITCH               null.String `db:"dlpcalgoswitch" json:"dlpcalgoswitch"`
+	NONSTANDARDBWALGOSW          null.String `db:"nonstandardbwalgosw" json:"nonstandardbwalgosw"`
+	CQIADJALGOSWITCH             null.String `db:"cqiadjalgoswitch" json:"cqiadjalgoswitch"`
+	DLSCHSWITCH                  null.String `db:"dlschswitch" json:"dlschswitch"`
+	ULSCHSWITCH                  null.String `db:"ulschswitch" json:"ulschswitch"`
+	RBDAMAGENEARPOINTIBLERTH     null.String `db:"rbdamagenearpointiblerth" json:"rbdamagenearpointiblerth"`
+	FDUEENHAPERCQITRIGPERIOD     null.String `db:"fdueenhapercqitrigperiod" json:"fdueenhapercqitrigperiod"`
+	BLINDHOA1A2THDRSRP           null.String `db:"blindhoa1a2thdrsrp" json:"blindhoa1a2thdrsrp"`
+	PDCCHCAPACITYIMPROVESWITCH   null.String `db:"pdcchcapacityimproveswitch" json:"pdcchcapacityimproveswitch"`
+	PDCCHPOWERENHANCEDSWITCH     null.String `db:"pdcchpowerenhancedswitch" json:"pdcchpowerenhancedswitch"`
+	PDCCHMAXCODERATE             null.String `db:"pdcchmaxcoderate" json:"pdcchmaxcoderate"`
+	PDCCHOUTLOOPADJLOWERLIMIT    null.String `db:"pdcchoutloopadjlowerlimit" json:"pdcchoutloopadjlowerlimit"`
+	PDCCHSYMNUMSWITCH            null.String `db:"pdcchsymnumswitch" json:"pdcchsymnumswitch"`
+	CCERATIOADJSWITCH            null.String `db:"cceratioadjswitch" json:"cceratioadjswitch"`
+	MEASBANDWIDTHCFGIND          null.String `db:"measbandwidthcfgind" json:"measbandwidthcfgind"`
+	CELLRESELPRIORITY            null.String `db:"cellreselpriority" json:"cellreselpriority"`
+	THRSHSERVLOWQCFGIND          null.String `db:"thrshservlowqcfgind" json:"thrshservlowqcfgind"`
+	SNONINTRASEARCH              null.String `db:"snonintrasearch" json:"snonintrasearch"`
+	THRSHSERVLOW                 null.String `db:"thrshservlow" json:"thrshservlow"`
+	QQUALMIN                     null.String `db:"qqualmin" json:"qqualmin"`
+	PUCCHPERIODICCQIOPTSWITCH    null.String `db:"pucchperiodiccqioptswitch" json:"pucchperiodiccqioptswitch"`
+	DLEARFCN                     null.String `db:"dlearfcn" json:"dlearfcn"`
+	MEASBANDWIDTH                null.String `db:"measbandwidth" json:"measbandwidth"`
+	THRESHXLOW                   null.String `db:"threshxlow" json:"threshxlow"`
+	CELLRESELPRIORITYCFGIND      null.String `db:"cellreselprioritycfgind" json:"cellreselprioritycfgind"`
+	INTERFREQHOA1THDRSRP         null.String `db:"interfreqhoa1thdrsrp" json:"interfreqhoa1thdrsrp"`
+	INTERFREQHOA2THDRSRP         null.String `db:"interfreqhoa2thdrsrp" json:"interfreqhoa2thdrsrp"`
+	INTERFREQHOA4THDRSRP         null.String `db:"interfreqhoa4thdrsrp" json:"interfreqhoa4thdrsrp"`
+	INTERRATHOA1A2TRIGQUAN       null.String `db:"interrathoa1a2trigquan" json:"interrathoa1a2trigquan"`
+	INTRAFREQHOA3HYST            null.String `db:"intrafreqhoa3hyst" json:"intrafreqhoa3hyst"`
+	INTRAFREQHOA3OFFSET          null.String `db:"intrafreqhoa3offset" json:"intrafreqhoa3offset"`
+	INTRAFREQHOA3TRIGQUAN        null.String `db:"intrafreqhoa3trigquan" json:"intrafreqhoa3trigquan"`
+	INTERFREQHOA1A2TRIGQUAN      null.String `db:"interfreqhoa1a2trigquan" json:"interfreqhoa1a2trigquan"`
+	FREQPRIINTERFREQHOA1TRIGQUAN null.String `db:"freqpriinterfreqhoa1trigquan" json:"freqpriinterfreqhoa1trigquan"`
+	INTERFREQHOA4TRIGQUAN        null.String `db:"interfreqhoa4trigquan" json:"interfreqhoa4trigquan"`
+	A3INTERFREQHOA1A2TRIGQUAN    null.String `db:"a3interfreqhoa1a2trigquan" json:"a3interfreqhoa1a2trigquan"`
+	REFERENCESIGNALPWR           null.String `db:"referencesignalpwr" json:"referencesignalpwr"`
+	PHICHDURATION                null.String `db:"phichduration" json:"phichduration"`
+	PHICHRESOURCE                null.String `db:"phichresource" json:"phichresource"`
+	FORMAT3RBNUM                 null.String `db:"format3rbnum" json:"format3rbnum"`
+	MAX2CCACKCHNUM               null.String `db:"max2ccackchnum" json:"max2ccackchnum"`
+	PRACHFREQOFFSETSTRATEGY      null.String `db:"prachfreqoffsetstrategy" json:"prachfreqoffsetstrategy"`
+	SPECTRUMCLOUDENHSWITCH       null.String `db:"spectrumcloudenhswitch" json:"spectrumcloudenhswitch"`
+	SPECTRUMCLOUDSWITCH          null.String `db:"spectrumcloudswitch" json:"spectrumcloudswitch"`
+	DLCCHSENDSTRATEGY            null.String `db:"dlcchsendstrategy" json:"dlcchsendstrategy"`
+	INTERFPFMOPTSWITCH           null.String `db:"interfpfmoptswitch" json:"interfpfmoptswitch"`
+	ANSRSSIMUTRANS               null.String `db:"ansrssimutrans" json:"ansrssimutrans"`
+	PRBRSVTYPE                   null.String `db:"prbrsvtype" json:"prbrsvtype"`
+	LTEPRBSTARTINDEX             null.String `db:"lteprbstartindex" json:"lteprbstartindex"`
+	LTEPRBENDINDEX               null.String `db:"lteprbendindex" json:"lteprbendindex"`
+}
+
+type Data4gUlo struct {
+	NE_NAME                 null.String `db:"ne_name" json:"ne_name"`
+	LOCELLTYPE              null.String `db:"locelltype" json:"locelltype"`
+	ULSPECTRUMSHARINGSWITCH null.String `db:"ulspectrumsharingswitch" json:"ulspectrumsharingswitch"`
+	ULLEFTSHAREDBANDWIDTH   null.String `db:"ulleftsharedbandwidth" json:"ulleftsharedbandwidth"`
+	ULRIGHTSHAREDBANDWIDTH  null.String `db:"ulrightsharedbandwidth" json:"ulrightsharedbandwidth"`
+	DLLEFTSHAREDBANDWIDTH   null.String `db:"dlleftsharedbandwidth" json:"dlleftsharedbandwidth"`
+	DLRIGHTSHAREDBANDWIDTH  null.String `db:"dlrightsharedbandwidth" json:"dlrightsharedbandwidth"`
+	ULSPECTRUMSHARINGPHASE2 null.String `db:"ulspectrumsharingphase2" json:"ulspectrumsharingphase2"`
+	TURBOICENHANCEDSW       null.String `db:"turboicenhancedsw" json:"turboicenhancedsw"`
+	CQIADJALGOFNONCON       null.String `db:"cqiadjalgofnoncon" json:"cqiadjalgofnoncon"`
+	CQIADJBYDYNBLERADJSW    null.String `db:"cqiadjbydynbleradjsw" json:"cqiadjbydynbleradjsw"`
+	ICMODE                  null.String `db:"icmode" json:"icmode"`
+	TURBOIC                 null.String `db:"turboic" json:"turboic"`
+	TURBOICPHASE2           null.String `db:"turboicphase2" json:"turboicphase2"`
+	CCPICPHASESWCTRL        null.String `db:"ccpicphaseswctrl" json:"ccpicphaseswctrl"`
+	NBIS                    null.String `db:"nbis" json:"nbis"`
+	DYNAMICPCPICHSWITCH     null.String `db:"dynamicpcpichswitch" json:"dynamicpcpichswitch"`
+}
+
+type Data3g struct {
+	CellName                                            null.String `db:"cell_name" json:"cell_name"`
+	NeName                                              null.String `db:"ne_name" json:"ne_name"`
+	CellId                                              null.String `db:"cell_id" json:"cell_id"`
+	SiteId                                              null.String `db:"siteid" json:"siteid"`
+	HSPAPLUSSWITCH_FDPCH_CAPABILITY_INVALID             null.String `db:"hspaplusswitch_fdpch_capability_invalid" json:"hspaplusswitch_fdpch_capability_invalid"`
+	LOADBALANCERATIO                                    null.String `db:"loadbalanceratio" json:"loadbalanceratio"`
+	MAXHSUPA2MSTTIUSERNUM                               null.String `db:"maxhsupa2msttiusernum" json:"maxhsupa2msttiusernum"`
+	CELLCOALGOENHSWITCH_SPEC_USER_HSDPA_DISABLED_SWITCH null.String `db:"cellcoalgoenhswitch_spec_user_hsdpa_disabled_switch" json:"cellcoalgoenhswitch_spec_user_hsdpa_disabled_switch"`
+	EARFCN                                              null.String `db:"earfcn" json:"earfcn"`
+	NPRIORITY                                           null.String `db:"npriority" json:"npriority"`
+	THDTOHIGH                                           null.String `db:"thdtohigh" json:"thdtohigh"`
+	THDTOLOW                                            null.String `db:"thdtolow" json:"thdtolow"`
+	EMEASBW                                             null.String `db:"emeasbw" json:"emeasbw"`
+	EQRXLEVMIN                                          null.String `db:"eqrxlevmin" json:"eqrxlevmin"`
+	SUPCNOPGRPINDEX                                     null.String `db:"supcnopgrpindex" json:"supcnopgrpindex"`
+	BLACKLSTCELLNUMBER                                  null.String `db:"blacklstcellnumber" json:"blacklstcellnumber"`
+	RSRQSWITCH                                          null.String `db:"rsrqswitch" json:"rsrqswitch"`
+	PERFENHANCESWITCH3_PERFENH_CQI_0_H2D_SWITCH         null.String `db:"perfenhanceswitch3_perfenh_cqi_0_h2d_switch" json:"perfenhanceswitch3_perfenh_cqi_0_h2d_switch"`
+}
